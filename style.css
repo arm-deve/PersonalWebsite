@@ -90,7 +90,7 @@
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
         }
-/* ===== انیمیشن لود صفحه ===== */
+    /* ===== انیمیشن لود صفحه ===== */
 .page-loader {
     position: fixed;
     top: 0;
@@ -132,4 +132,3 @@ body.loaded main {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
-    
