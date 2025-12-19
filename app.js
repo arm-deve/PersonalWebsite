@@ -1,6 +1,13 @@
-
-
-
+   window.addEventListener('load', function() {
+        setTimeout(() => {
+            document.body.classList.add('loaded');
+            
+            setTimeout(() => {
+                const loader = document.querySelector('.page-loader');
+                if (loader) loader.remove();
+            }, 400);
+        }, 800);
+    });
 // تنظیم سال جاری در فوتر
         document.getElementById('currentYear').textContent = new Date().getFullYear();
         
@@ -141,5 +148,6 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     console.log(error);
   });
 });
+
 
 document.getElementById('currentYear').textContent = new Date().getFullYear();
