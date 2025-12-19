@@ -53,16 +53,20 @@
         <div class="container-custom section-padding">
             <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
                 <div class="lg:w-1/2">
-                    <h1 class="text-3xl md:text-4xl font-bold mb-4">
-                        <span class="text-blue-600">سلام، من علی فرجی هستم</span><br>
-                        <span class="typewriter">توسعه‌دهنده Mid-Level فرانت‌اند</span>
-                    </h1>
-                    
-                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                        با اشتیاق فراوان در دنیای توسعه وب تازه شروع کرده‌ام. در حال یادگیری 
-                        <span class="font-bold text-blue-600">HTML، CSS، JavaScript</span> و 
-                        <span class="font-bold text-blue-600">Tailwind CSS</span> هستم و هر روز در حال پیشرفت و ساختن پروژه‌های جدیدم.
-                    </p>
+                     <h1 class="text-2xl md:text-4xl font-bold mb-4">
+        <span class="text-blue-600 block mb-2">سلام، من علی فرجی هستم</span>
+        <span class="text-xl md:text-3xl text-gray-800 leading-tight">
+            توسعه‌دهنده<br class="md:hidden">
+            <span class="text-blue-600">Front-End</span>
+        </span>
+    </h1>
+    
+    <p class="text-base md:text-lg text-gray-600 mb-6 md:mb-8 leading-relaxed">
+        متخصص در 
+        <span class="font-bold text-blue-600">HTML، CSS، JavaScript</span> و 
+        <span class="font-bold text-blue-600">Tailwind CSS</span>.
+        هر روز در حال پیشرفت و ساختن پروژه‌های جدید.
+    </p>
                     
                     <div class="flex flex-wrap gap-4">
                         <a href="mailto:arminefaraji@gmail.com?subject=دعوت%20به%20همکاری&body=سلام،%0Aبرای%20همکاری%20با%20شما%20تماس%20می‌گیرم " class="btn-primary text-white px-6 py-3 rounded-lg font-medium inline-flex items-center">
@@ -482,54 +486,61 @@
     </div>
 </div>
     <!-- فوتر -->
-<footer class="bg-gray-900 text-gray-300 pt-12 pb-8">
-    <div class="max-w-4xl mx-auto px-4">
+<footer class="bg-gray-900 text-gray-300 pt-10 pb-6">
+    <div class="max-w-4xl mx-auto px-5">
         <!-- لوگو و عنوان -->
-        <div class="text-center mb-8">
-            <a href="#" class="inline-block text-xl font-bold text-white mb-3">
+        <div class="text-center mb-6">
+            <a href="#" class="inline-block text-lg font-bold text-white mb-2">
                 علی فرجی
             </a>
-            <p class="text-sm text-gray-400">
+            <p class="text-xs text-gray-400">
                 توسعه‌دهنده Front-End
             </p>
         </div>
         
         <!-- لینک‌ها -->
-        <div class="flex justify-center gap-6 mb-8">
-            <a href="#home" class="text-gray-400 hover:text-white text-sm transition">
+        <div class="flex justify-center gap-4 md:gap-6 mb-6">
+            <a href="#home" class="text-gray-400 hover:text-white text-xs md:text-sm transition">
                 خانه
             </a>
-            <a href="#projects" class="text-gray-400 hover:text-white text-sm transition">
+            <span class="text-gray-600">•</span>
+            <a href="#projects" class="text-gray-400 hover:text-white text-xs md:text-sm transition">
                 نمونه‌کارها
             </a>
-            <a href="#contact" class="text-gray-400 hover:text-white text-sm transition">
+            <span class="text-gray-600">•</span>
+            <a href="#contact" class="text-gray-400 hover:text-white text-xs md:text-sm transition">
                 تماس
             </a>
         </div>
         
         <!-- شبکه‌های اجتماعی -->
-        <div class="flex justify-center gap-4 mb-8">
-            <a href="https://t.me/ProxyHArmin" class="text-gray-400 hover:text-blue-400 transition">
-                <i class="fab fa-telegram text-lg"></i>
+        <div class="flex justify-center gap-3 md:gap-4 mb-6">
+            <a href="https://t.me/ProxyHArmin" 
+               class="text-gray-400 hover:text-blue-400 transition p-2"
+               aria-label="تلگرام">
+                <i class="fab fa-telegram text-base md:text-lg"></i>
             </a>
-            <a href="https://wa.me/989189643944" class="text-gray-400 hover:text-green-400 transition">
-                <i class="fab fa-whatsapp text-lg"></i>
+            <a href="https://wa.me/989189643944" 
+               class="text-gray-400 hover:text-green-400 transition p-2"
+               aria-label="واتساپ">
+                <i class="fab fa-whatsapp text-base md:text-lg"></i>
             </a>
-            <a href="https://www.linkedin.com/in/armin-faraji-804b22379/" class="text-gray-400 hover:text-blue-300 transition">
-                <i class="fab fa-linkedin text-lg"></i>
+            <a href="https://www.linkedin.com/in/armin-faraji-804b22379/" 
+               class="text-gray-400 hover:text-blue-300 transition p-2"
+               aria-label="لینکدین">
+                <i class="fab fa-linkedin text-base md:text-lg"></i>
             </a>
-            <a href="https://github.com/arm-deve" class="text-gray-400 hover:text-gray-300 transition">
-                <i class="fab fa-github text-lg"></i>
+            <a href="https://github.com/arm-deve" 
+               class="text-gray-400 hover:text-gray-300 transition p-2"
+               aria-label="گیتهاب">
+                <i class="fab fa-github text-base md:text-lg"></i>
             </a>
         </div>
         
-        <!-- خط جداکننده -->
-        <div class="border-t border-gray-800 my-6"></div>
-        
         <!-- کپی‌رایت -->
-        <div class="text-center">
+        <div class="text-center pt-4 border-t border-gray-800">
             <p class="text-xs text-gray-500">
-                ساخته شده با ❤️ توسط علی فرجی • © <span id="currentYear"></span>
+                © <span id="currentYear"></span> ساخته شده توسط علی فرجی
             </p>
         </div>
     </div>
