@@ -1,46 +1,45 @@
-# 🌸 Mina - Personal Portfolio
+# 👨‍💻 Ali Faraji - Personal Portfolio
 
-یک وبسایت پورتفولیوی شخصی، مدرن و ریسپانسیو برای توسعه‌دهنده‌های تازه‌کار فرانت‌اند
+A modern, responsive portfolio website for a beginner Front-End Developer.
 
-## ✨ ویژگی‌ها
-- طراحی کاملاً واکنش‌گرا (موبایل، تبلت، دسکتاپ)
-- رابط کاربری مدرن با Tailwind CSS
-- انیمیشن‌های نرم و جذاب
-- فرم تماس با اعتبارسنجی
-- نمایش مهارت‌ها و پروژه‌ها
-- کدنویسی تمیز و قابل نگهداری
+## ✨ Features
+- Fully responsive design (Mobile, Tablet, Desktop)
+- Clean UI with Tailwind CSS
+- Smooth animations & transitions
+- Contact form with validation
+- Skills & projects showcase
 
-## 🛠️ تکنولوژی‌ها
+## 🛠️ Tech Stack
 - HTML5 • CSS3 • JavaScript
 - Tailwind CSS • Font Awesome
-- Vazirmatn Font (فونت فارسی)
+- Vazirmatn Font (Persian support)
 
-## 🚀 استفاده سریع
+## 🚀 Quick Start
 ```bash
-1. دانلود فایل‌ها
-2. باز کردن index.html در مرورگر
-3. شخصی‌سازی اطلاعات
+1. Download files
+2. Open index.html in browser
+3. Customize content
 ```
 
-## 🔧 شخصی‌سازی
-- تغییر نام در خطوط 11, 38, 51
-- تغییر اطلاعات تماس در بخش Contact
-- جایگزینی عکس پروفایل
-- ویرایش پروژه‌های نمونه
+## 🔧 Customization
+- Change name in lines 11, 38, 51
+- Update contact info
+- Replace profile image
+- Edit projects section
 
-## 📱 پشتیبانی مرورگرها
+## 📱 Browser Support
 Chrome | Firefox | Safari | Edge
 :---:|:---:|:---:|:---:
 ✅ | ✅ | ✅ | ✅
 
-## 📞 تماس
-- ایمیل: [your-email@example.com](mailto:your-email@example.com)
-- تلگرام: [@your-telegram](https://t.me/your-telegram)
-- گیتهاب: [@your-github](https://github.com/your-github)
+## 📞 Contact
+- Email: [arminefaraji@gmail.com](mailto:arminefaraji@gmail.com)
+- Telegram: [@ProxyHArmin](https://t.me/ProxyHArmin)
+- GitHub: [@arm-deve](https://github.com/arm-deve)
 
-## 📄 لایسنس
-کدهای این پروژه تحت لایسنس MIT منتشر شده‌اند.
+## 📄 License
+MIT License - Free to use and modify.
 
 ---
 
-⭐ **اگر این پروژه رو دوست داشتید، بهش ستاره بدید!**
+⭐ **If you like this project, give it a star!**
