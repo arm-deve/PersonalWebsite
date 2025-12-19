@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علی فرجی - توسعه‌دهنده Mid-Level فرانت‌اند</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+</head>
+<body class="text-gray-800">
+
+
+    <!-- هدر -->
+    <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="container-custom section-padding">
+            <nav class="flex justify-between items-center py-4">
+                <a href="#" class="text-xl font-bold text-blue-600">
+                    <i class="fas fa-code ml-1"></i>
+                    علی فرجی
+                </a>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600 transition">خانه</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">درباره من</a>
+                    <a href="#skills" class="text-gray-600 hover:text-blue-600 transition">مهارت‌ها</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">پروژه‌ها</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">تماس</a>
+                </div>
+                
+                <button id="mobileMenuBtn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </nav>
+        </div>
+        
+        <!-- منوی موبایل -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4">
+            <div class="container-custom section-padding flex flex-col space-y-4">
+                <a href="#home" class="py-2 text-gray-600 hover:text-blue-600 transition">خانه</a>
+                <a href="#about" class="py-2 text-gray-600 hover:text-blue-600 transition">درباره من</a>
+                <a href="#skills" class="py-2 text-gray-600 hover:text-blue-600 transition">مهارت‌ها</a>
+                <a href="#projects" class="py-2 text-gray-600 hover:text-blue-600 transition">پروژه‌ها</a>
+                <a href="#contact" class="py-2 text-gray-600 hover:text-blue-600 transition">تماس</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- بخش اصلی -->
+    <section id="home" class="py-12 md:py-20">
+        <div class="container-custom section-padding">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+                <div class="lg:w-1/2">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-4">
+                        <span class="text-blue-600">سلام، من علی فرجی هستم</span><br>
+                        <span class="typewriter">توسعه‌دهنده Mid-Level فرانت‌اند</span>
+                    </h1>
+                    
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        با اشتیاق فراوان در دنیای توسعه وب تازه شروع کرده‌ام. در حال یادگیری 
+                        <span class="font-bold text-blue-600">HTML، CSS، JavaScript</span> و 
+                        <span class="font-bold text-blue-600">Tailwind CSS</span> هستم و هر روز در حال پیشرفت و ساختن پروژه‌های جدیدم.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <a href="mailto:arminefaraji@gmail.com?subject=دعوت%20به%20همکاری&body=سلام،%0Aبرای%20همکاری%20با%20شما%20تماس%20می‌گیرم " class="btn-primary text-white px-6 py-3 rounded-lg font-medium inline-flex items-center">
+                            <i class="fas fa-paper-plane ml-2"></i>
+                            شروع همکاری
+                        </a>
+                        <a href="#projects" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium inline-flex items-center">
+                            <i class="fas fa-eye ml-2"></i>
+                            مشاهده کارهایم
+                        </a>
+                    </div>
+                    
+                    <div class="mt-10 flex flex-wrap gap-6">
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 text-blue-600 p-3 rounded-full ml-3">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold">یادگیری مستمر</div>
+                                <div class="text-sm text-gray-500">روزانه ۴+ ساعت کدنویسی</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="bg-green-100 text-green-600 p-3 rounded-full ml-3">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold">تعهد بالا</div>
+                                <div class="text-sm text-gray-500">تکمیل پروژه‌ها در زمان مشخص</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-2/5">
+                 <div class="relative">
+    <div class="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-2xl overflow-hidden shadow-xl relative">
+        <!-- عکس اصلی شما -->
+        <img src="images/عکس پروفایل.jpg" alt="علی فرجی - توسعه‌دهنده فرانت‌اند" 
+             class="w-full h-full object-cover">
+        
+        <!-- افکت روی عکس -->
+        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
+        
+        <!-- متن روی عکس -->
+        <div class="absolute bottom-0 right-0 left-0 p-6 text-white">
+            <div class="font-bold text-xl mb-1">علی فرجی</div>
+            <div class="text-sm opacity-90">توسعه‌دهنده فرانت‌اند</div>
+        </div>
+    </div>
+    
+    <!-- المان تزئینی کوچک -->
+    <div class="absolute -top-3 -right-3 bg-yellow-500 text-white p-3 rounded-lg shadow-lg">
+        <div class="text-sm font-bold">< / ></div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- درباره من -->
+    <section id="about" class="py-12 md:py-20 bg-white">
+        <div class="container-custom section-padding">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 fade-in">درباره من و مسیرم</h2>
+            
+            <div class="flex flex-col lg:flex-row gap-10">
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 p-6 rounded-2xl card-hover">
+                        <h3 class="text-xl font-bold mb-4 text-blue-600">سفر من در برنامه‌نویسی</h3>
+                        <p class="text-gray-700 mb-4 leading-relaxed">
+                            حدود ۶ ماه پیش با دنیای برنامه‌نویسی آشنا شدم و از همون اول عاشق ساختن چیزهای جدید در وب شدم. شروع کردم به یادگیری 
+                            <span class="font-bold">HTML و CSS  و JavaScript</span> و الان دارم روی <span class="font-bold">Django</span> کار می‌کنم.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            هر روز دارم چیزهای جدید یاد می‌گیرم و پروژه‌های کوچک می‌سازم تا مهارت‌هام رو تقویت کنم. دوست دارم اولین تجربه‌های کاری‌م رو با پروژه‌های واقعی شروع کنم.
+                        </p>
+                        
+                        <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-100">
+                            <div class="flex items-center">
+                                <i class="fas fa-lightbulb text-yellow-500 text-xl ml-3"></i>
+                                <div>
+                                    <div class="font-bold">رویکرد من:</div>
+                                    <div class="text-sm text-gray-600">کیفیت، یادگیری و پیشرفت مداوم</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 p-6 rounded-2xl card-hover">
+                        <h3 class="text-xl font-bold mb-4 text-blue-600">چرا با من همکاری کنید؟</h3>
+                        
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="bg-green-100 text-green-600 p-2 rounded-full ml-3">
+                                    <i class="fas fa-check text-sm"></i>
+                                </div>
+                                <div>
+                                    <span class="font-bold">تعهد ۱۰۰٪</span>
+                                    <p class="text-gray-600 text-sm mt-1">هر پروژه‌ای رو که شروع کنم، تا انتها با انرژی ادامه می‌دم</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-2 rounded-full ml-3">
+                                    <i class="fas fa-sync-alt text-sm"></i>
+                                </div>
+                                <div>
+                                    <span class="font-bold">یادگیری سریع</span>
+                                    <p class="text-gray-600 text-sm mt-1">چیزهای جدید رو سریع یاد می‌گیرم و اجرا می‌کنم</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-purple-100 text-purple-600 p-2 rounded-full ml-3">
+                                    <i class="fas fa-comments text-sm"></i>
+                                </div>
+                                <div>
+                                    <span class="font-bold">ارتباط خوب</span>
+                                    <p class="text-gray-600 text-sm mt-1">در طول پروژه در ارتباط کامل هستم و گزارش می‌دم</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-yellow-100 text-yellow-600 p-2 rounded-full ml-3">
+                                    <i class="fas fa-handshake text-sm"></i>
+                                </div>
+                                <div>
+                                    <span class="font-bold">قیمت منصفانه</span>
+                                    <p class="text-gray-600 text-sm mt-1">به عنوان Mid-Level، قیمت‌های منصفانه‌ای دارم</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- مهارت‌ها -->
+    <section id="skills" class="py-12 md:py-20">
+        <div class="container-custom section-padding">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 fade-in">مهارت‌هایی که دارم</h2>
+            
+            <div class="mb-10">
+                <h3 class="text-xl font-bold mb-6 text-center">زبان‌ها و تکنولوژی‌ها</h3>
+                
+                <div class="flex flex-wrap justify-center gap-4">
+                    <div class="skill-badge bg-white border border-blue-200 text-blue-700 px-5 py-3 rounded-full font-medium flex items-center">
+                        <i class="fab fa-html5 text-orange-500 ml-2"></i>
+                        HTML5
+                    </div>
+                    
+                    <div class="skill-badge bg-white border border-blue-200 text-blue-700 px-5 py-3 rounded-full font-medium flex items-center">
+                        <i class="fab fa-css3-alt text-blue-500 ml-2"></i>
+                        CSS3
+                    </div>
+                    
+                    <div class="skill-badge bg-white border border-blue-200 text-blue-700 px-5 py-3 rounded-full font-medium flex items-center">
+                        <i class="fab fa-js-square text-yellow-500 ml-2"></i>
+                        JavaScript
+                    </div>
+                    
+                    <div class="skill-badge bg-white border border-blue-200 text-blue-700 px-5 py-3 rounded-full font-medium flex items-center">
+                        <i class="fas fa-wind text-teal-500 ml-2"></i>
+                        Tailwind CSS
+                    </div>
+                    
+                    <div class="skill-badge bg-white border border-blue-200 text-blue-700 px-5 py-3 rounded-full font-medium flex items-center">
+                        <i class="fab fa-bootstrap text-purple-600 ml-2"></i>
+                        Bootstrap
+                    </div>
+                    
+                    <div class="skill-badge bg-white border border-blue-200 text-blue-700 px-5 py-3 rounded-full font-medium flex items-center">
+                        <i class="fab fa-python text-blue-600 ml-2"></i>
+                        Python
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12">
+                <h3 class="text-xl font-bold mb-6 text-center">در حال یادگیری</h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-2xl card-hover">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-blue-100 text-blue-600 p-3 rounded-full ml-3">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Django</h4>
+                                <p class="text-sm text-gray-500">شروع کرده‌ام</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">«در حال حاضر در حال یادگیری Django و ساخت اپلیکیشن‌های ساده وب هستم.» </p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-2xl card-hover">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-green-100 text-green-600 p-3 rounded-full ml-3">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Responsive Design</h4>
+                                <p class="text-sm text-gray-500">در حال تمرین</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">ساختن سایت‌های واکنش‌گرا که در همه دستگاه‌ها خوب نمایش داده بشن</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- پروژه‌ها -->
+    <section id="projects" class="py-12 md:py-20 bg-white">
+        <div class="container-custom section-padding">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 fade-in">پروژه‌های تمرینی من</h2>
+            <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+                این‌ها پروژه‌هایی هستن که برای تمرین و یادگیری ساختم. هر کدوم چالش‌های جدیدی برام داشت و باعث پیشرفتم شد.
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- پروژه ۱ -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden card-hover fade-in">
+                    <div class="h-48 bg-gradient-to-r from-blue-400 to-cyan-400 flex items-center justify-center">
+                        <i class="fas fa-home text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">لندینگ پیج ساده</h3>
+                        <p class="text-gray-600 mb-4 text-sm">یک صفحه فرود ساده و زیبا برای یک کسب‌وکار کوچک</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-teal-100 text-teal-800 text-xs px-3 py-1 rounded-full">Tailwind</span>
+                        </div>
+                        <a href=" https://arminprogramme.github.io/modelingWeb/" class="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
+                            مشاهده کد
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- پروژه ۲ -->
+               <div class="bg-gray-50 rounded-2xl overflow-hidden card-hover fade-in visible">
+    <div class="h-48 bg-gradient-to-r from-green-400 to-emerald-500 flex items-center justify-center">
+        <i class="fab fa-react text-white text-6xl"></i> <!-- آیکون React -->
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">سایت آموزش برنامه نویسی</h3>
+        <p class="text-gray-600 mb-4 text-sm">یک سایت آموزشی ساده با ریکت </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React.js</span>
+            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CSS</span>
+            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+        </div>
+        <a href="https://arminprogramme.github.io/sabzlearn/" class="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
+            مشاهده کد
+            <i class="fas fa-arrow-left mr-2"></i>
+        </a>
+    </div>
+</div>
+
+                
+                <!-- پروژه ۳ -->
+             <div class="bg-gray-50 rounded-2xl overflow-hidden card-hover fade-in">
+    <div class="h-48 bg-gradient-to-r from-purple-400 to-pink-400 flex items-center justify-center">
+        <i class="fas fa-store text-white text-6xl"></i> <!-- آیکون فروشگاه -->
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">سایت فروشگاهی</h3>
+        <p class="text-gray-600 mb-4 text-sm">یک سایت فروشگاهی ساده با نمایش محصولات و سبد خرید</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CSS</span>
+            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+        </div>
+        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
+            مشاهده کد
+            <i class="fas fa-arrow-left mr-2"></i>
+        </a>
+    </div>
+</div>
+
+            </div>
+            
+            <div class="mt-12 text-center">
+                <div class="bg-blue-50 border border-blue-100 rounded-2xl p-6 max-w-2xl mx-auto">
+                    <h4 class="font-bold text-lg mb-2">آماده برای پروژه اول!</h4>
+                    <p class="text-gray-600 mb-4">من با انگیزه بالا آماده‌ام اولین پروژه واقعی‌ام رو با شما شروع کنم. تضمین می‌کنم تمام تلاشم رو برای رضایت شما انجام بدم.</p>
+                    <a href="#contact" class="btn-primary text-white px-6 py-3 rounded-lg font-medium inline-flex items-center">
+                        <i class="fas fa-star ml-2"></i>
+                        سفارش پروژه
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس -->
+   <div class="max-w-6xl mx-auto px-4 py-4 md:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-8">
+        <!-- فرم سمت چپ -->
+        <div class="bg-white p-6 md:p-7 rounded-xl border border-gray-100 shadow-sm">
+            <div class="text-center mb-6">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">درخواست همکاری</h3>
+                <p class="text-gray-600 text-sm">اولین قدم برای شروع پروژه شما</p>
+            </div>
+            
+            <form id="contactForm" class="space-y-5">
+                <!-- نام -->
+                <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">
+                        نام شما
+                    </label>
+                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition">
+                </div>
+                
+                <!-- راه ارتباطی -->
+                <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">
+                        راه ارتباطی
+                    </label>
+                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="تلگرام، واتساپ یا ایمیل">
+                </div>
+                
+                <!-- توضیحات پروژه -->
+                <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">
+                        پروژه شما
+                    </label>
+                    <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="در مورد پروژه‌تون برام توضیح بدید..."></textarea>
+                </div>
+                
+                <!-- دکمه ارسال -->
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition duration-300">
+                    ارسال درخواست
+                </button>
+            </form>
+            
+            <!-- نکته کوچک -->
+            <div class="mt-6 pt-5 border-t border-gray-100">
+                <p class="text-xs text-gray-500 text-center">
+                    معمولاً تا ۶ ساعت بعد پاسخ می‌دم
+                </p>
+            </div>
+        </div>
+        
+        <!-- اطلاعات سمت راست -->
+        <div class="space-y-6">
+            <!-- کارت معرفی -->
+            <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                <div class="flex items-center mb-4">
+                    <div class="ml-4">
+                        <h4 class="font-bold text-gray-800">علی فرجی</h4>
+                        <p class="text-sm text-gray-600">توسعه‌دهنده Front-End</p>
+                    </div>
+                </div>
+                
+                <p class="text-gray-700 text-sm leading-relaxed mb-4">
+                    با علاقه زیاد به کدنویسی، تازه مسیر فریلنسری رو شروع کردم. 
+                    <span class="font-medium text-blue-600">انرژی و تعهد</span> بالایی برای یادگیری و انجام پروژه‌ها دارم.
+                </p>
+                
+                <div class="flex items-center text-sm text-gray-600">
+                    <i class="fas fa-map-marker-alt ml-2 text-gray-400"></i>
+                    <span>ایران</span>
+                    <i class="fas fa-clock mr-4 ml-6 text-gray-400"></i>
+                    <span>پاسخ‌گو: ۹ صبح تا ۹ شب</span>
+                </div>
+            </div>
+            
+            <!-- مهارت‌ها -->
+            <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                <h4 class="font-bold text-gray-800 mb-4">توانایی‌هایم</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-100">
+                        HTML/CSS
+                    </span>
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-100">
+                        JavaScript
+                    </span>
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-100">
+                        Tailwind
+                    </span>
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-100">
+                        Bootstrap
+                    </span>
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-100">
+                        Python
+                    </span>
+                </div>
+            </div>
+            
+            <!-- ارتباط مستقیم -->
+            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-100">
+                <h4 class="font-bold text-gray-800 mb-3">ارتباط مستقیم</h4>
+                <p class="text-sm text-gray-600 mb-4">
+                    ترجیح می‌دید مستقیم پیام بدید؟
+                </p>
+                <div class="flex gap-3">
+                    <a href="https://t.me/ProxyHArmin" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg text-center text-sm transition">
+                        <i class="fab fa-telegram ml-1"></i>
+                        تلگرام
+                    </a>
+                    <a href="https://wa.me/989189643944" class="flex-1 bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg text-center text-sm transition">
+                        <i class="fab fa-whatsapp ml-1"></i>
+                        واتساپ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- فوتر -->
+<footer class="bg-gray-900 text-gray-300 pt-12 pb-8">
+    <div class="max-w-4xl mx-auto px-4">
+        <!-- لوگو و عنوان -->
+        <div class="text-center mb-8">
+            <a href="#" class="inline-block text-xl font-bold text-white mb-3">
+                علی فرجی
+            </a>
+            <p class="text-sm text-gray-400">
+                توسعه‌دهنده Front-End
+            </p>
+        </div>
+        
+        <!-- لینک‌ها -->
+        <div class="flex justify-center gap-6 mb-8">
+            <a href="#home" class="text-gray-400 hover:text-white text-sm transition">
+                خانه
+            </a>
+            <a href="#projects" class="text-gray-400 hover:text-white text-sm transition">
+                نمونه‌کارها
+            </a>
+            <a href="#contact" class="text-gray-400 hover:text-white text-sm transition">
+                تماس
+            </a>
+        </div>
+        
+        <!-- شبکه‌های اجتماعی -->
+        <div class="flex justify-center gap-4 mb-8">
+            <a href="https://t.me/ProxyHArmin" class="text-gray-400 hover:text-blue-400 transition">
+                <i class="fab fa-telegram text-lg"></i>
+            </a>
+            <a href="https://wa.me/989189643944" class="text-gray-400 hover:text-green-400 transition">
+                <i class="fab fa-whatsapp text-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/armin-faraji-804b22379/" class="text-gray-400 hover:text-blue-300 transition">
+                <i class="fab fa-linkedin text-lg"></i>
+            </a>
+            <a href="https://github.com/arm-deve" class="text-gray-400 hover:text-gray-300 transition">
+                <i class="fab fa-github text-lg"></i>
+            </a>
+        </div>
+        
+        <!-- خط جداکننده -->
+        <div class="border-t border-gray-800 my-6"></div>
+        
+        <!-- کپی‌رایت -->
+        <div class="text-center">
+            <p class="text-xs text-gray-500">
+                ساخته شده با ❤️ توسط علی فرجی • © <span id="currentYear"></span>
+            </p>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
