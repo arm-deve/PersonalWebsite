@@ -18,12 +18,7 @@
             padding-left: 1.5rem;
         }
         
-        @media (min-width: 768px) {
-            .section-padding {
-                padding-right: 3rem;
-                padding-left: 3rem;
-            }
-        }
+       
         
         @media (min-width: 1024px) {
             .section-padding {
@@ -131,4 +126,25 @@ body.loaded main {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 768px) {
+    .section-padding {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    #mobileMenu {
+        animation: slideDown 0.3s ease;
+    }
+    
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }
