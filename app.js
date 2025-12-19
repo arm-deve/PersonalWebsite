@@ -8,6 +8,8 @@
             }, 400);
         }, 800);
     });
+
+
 // تنظیم سال جاری در فوتر
         document.getElementById('currentYear').textContent = new Date().getFullYear();
         
@@ -149,6 +151,4 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   });
 });
 
-
 document.getElementById('currentYear').textContent = new Date().getFullYear();
-
