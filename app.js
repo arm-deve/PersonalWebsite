@@ -151,3 +151,4 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
 
 document.getElementById('currentYear').textContent = new Date().getFullYear();
+
